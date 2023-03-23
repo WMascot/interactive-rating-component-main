@@ -87,12 +87,17 @@ body {
   --border-radius: 2rem;
 
   max-width: 26rem;
-  aspect-ratio: 1;
   padding: var(--padding);
   border-radius: var(--border-radius);
   overflow: hidden;
   display: grid;
   background: radial-gradient(at top center, var(--clr-neutral-500) 0%, hsl(var(--clr-neutral-hsl-500), 60%) 70%);
+}
+
+@media (min-width: 600px) {
+  .card {
+    aspect-ratio: 1;
+  }
 }
 
 @media (max-width: 600px) {
