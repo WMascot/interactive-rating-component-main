@@ -83,10 +83,11 @@ body {
 }
 
 .card {
-  --padding: 2rem;
+  --padding: 2.25rem;
   --border-radius: 2rem;
 
-  max-width: 25rem;
+  max-width: 26rem;
+  aspect-ratio: 1;
   padding: var(--padding);
   border-radius: var(--border-radius);
   overflow: hidden;
